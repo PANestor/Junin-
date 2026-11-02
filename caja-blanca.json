@@ -3,79 +3,720 @@
   "dominio": "presenciaactiva.com.ar",
   "ciudad": "Junín, Buenos Aires, Argentina",
   "actualizado": "2026-11-01",
-  "cantidad_comercios": 8,
+  "cantidad_comercios": 9,
   "comercios": [
     {
-      "id": "frenos-leo",
-      "nombre": "Frenos Leo",
-      "rubro": "Frenos y embragues",
-      "direccion": "Av. Rivadavia 1489, Junín, Buenos Aires",
-      "horario": "Lun-Sab 08:00-19:00",
-      "telefono": "+54 236 444-0001",
-      "verificado": true
+      "@context": "https://schema.org",
+      "@type": "Bakery",
+      "name": "Panaderia Giorgio",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Tucuman 756",
+        "addressLocality": "Junin",
+        "addressRegion": "Buenos Aires",
+        "addressCountry": "AR"
+      },
+      "telephone": "+5492364270295",
+      "sameAs": [
+        "https://www.instagram.com/giorgio.panaderia/"
+      ],
+      "description": "Horarios: Lunes a Sabados de 7,30 a 21,30 hs Domingos de 7,30 a 14,00 hs",
+      "paymentAccepted": "Efectivo,Mercado Pago,Tarjeta de débito,Transferencia bancaria,billeteras virtuales",
+      "makesOffer": [
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Product",
+            "name": "Pan"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Product",
+            "name": "Facturas"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Product",
+            "name": "Tartas Dulces"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Product",
+            "name": "Tortas"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Product",
+            "name": "Masas Secas"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Product",
+            "name": "Chipà"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Product",
+            "name": "Alfajores"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Product",
+            "name": "Pastas frescas"
+          }
+        }
+      ]
     },
     {
-      "id": "panaderia-giorgio",
-      "nombre": "Panadería Giorgio",
-      "rubro": "Panadería",
-      "direccion": "Tucumán 756, Junín, Buenos Aires",
-      "horario": "Lun-Dom 06:30-21:00",
-      "telefono": "+54 236 444-0002",
-      "verificado": true
+      "@context": "https://schema.org",
+      "@type": "BicycleStore",
+      "name": "La Bichicletteria",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Benito de Miguel 234",
+        "addressLocality": "Junin",
+        "addressRegion": "Buenos Aires",
+        "addressCountry": "AR"
+      },
+      "telephone": "+5492364559046",
+      "sameAs": [
+        "https://www.instagram.com/labichicletteria/"
+      ],
+      "description": "Horarios: Lunes a Viernes de 8,30 a 12,00 hs y de 16,00 a 20,00 hs Sabados de 9,00 a 13,00 hs",
+      "paymentAccepted": "Efectivo,Mercado Pago,Tarjeta de débito,Transferencia bancaria,billeteras virtuales",
+      "makesOffer": [
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Product",
+            "name": "Ventas de Bicicletas Raleigh"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Product",
+            "name": "ventas de bicicletas FireBird"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Product",
+            "name": "Repuestos orignales"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Product",
+            "name": "Indumentaria"
+          }
+        }
+      ]
     },
     {
-      "id": "la-bichicletteria",
-      "nombre": "La Bichicletteria",
-      "rubro": "Librería y regalos",
-      "direccion": "Bto de Miguel 234, Junín, Buenos Aires",
-      "horario": "Lun-Sab 08:30-12:30 y 16:30-20:30",
-      "telefono": "+54 236 444-0003",
-      "verificado": true
+      "@context": "https://schema.org",
+      "@type": "MotorcycleStore",
+      "name": "Sofia Motos",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Rivadavia 1195",
+        "addressLocality": "Junin",
+        "addressRegion": "Buenos Aires",
+        "addressCountry": "AR"
+      },
+      "telephone": "+5492364656050",
+      "sameAs": [
+        "https://www.instagram.com/sofiamotoss/"
+      ],
+      "description": "Horarios: Lunes a Viernes de 8,30 a 12,00 hs y de 16,00 a 20,00 hs Sabados de 9,00 a 13,00 hs",
+      "paymentAccepted": "Efectivo,Mercado Pago,Tarjeta de débito,Transferencia bancaria,billeteras virtuales",
+      "makesOffer": [
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Product",
+            "name": "Venta de Motos"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Product",
+            "name": "Motos Electricas"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Product",
+            "name": "Casco"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Product",
+            "name": "Indumentaria"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Product",
+            "name": "repuestos originales"
+          }
+        }
+      ]
     },
     {
-      "id": "sofia-motos",
-      "nombre": "Sofia Motos",
-      "rubro": "Motos y repuestos",
-      "direccion": "Rivadavia 1195, Junín, Buenos Aires",
-      "horario": "Lun-Sab 08:00-12:30 y 16:00-20:00",
-      "telefono": "+54 236 444-0004",
-      "verificado": true
+      "@context": "https://schema.org",
+      "@type": "ButcherShop",
+      "name": "Carnes Argentinas",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Avenida Republica 1250",
+        "addressLocality": "Junin",
+        "addressRegion": "Buenos Aires",
+        "addressCountry": "AR"
+      },
+      "telephone": "+5492364563811",
+      "sameAs": [],
+      "description": "Horarios: Lunes a Sabados 8,00 a 13 y de 17 a 21,30 hs Domingos 8,30 a 13,00 hs",
+      "paymentAccepted": "Efectivo,Mercado Pago,Tarjeta de débito,Transferencia bancaria,billeteras virtuales",
+      "makesOffer": [
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Product",
+            "name": "Carnes"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Product",
+            "name": "Pollos"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Product",
+            "name": "Cerdos"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Product",
+            "name": "Pre-Fritos de Pollos"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Product",
+            "name": "Embutidos"
+          }
+        }
+      ]
     },
     {
-      "id": "carnes-argentinas",
-      "nombre": "Carnes Argentinas",
-      "rubro": "Carnicería",
-      "direccion": "Avda República 1250, Junín, Buenos Aires",
-      "horario": "Lun-Sab 07:30-13:00 y 17:00-20:30, Dom 08:00-13:00",
-      "telefono": "+54 236 444-0005",
-      "verificado": true
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Pastas Curly",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Padre Ghio 644",
+        "addressLocality": "Junin",
+        "addressRegion": "Buenos Aires",
+        "addressCountry": "AR"
+      },
+      "telephone": "+5492364215566",
+      "sameAs": [
+        "https://www.instagram.com/pastascurly/"
+      ],
+      "description": "Horarios: Ma-Sa 09:00-13:30 - 18:30-22:00; Do 09:00-13:30 Hs; Lunes Cerrado",
+      "paymentAccepted": "Efectivo, Mercado Pago, Tarjeta de débito, Transferencia bancaria, Otras billeteras virtuales",
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday"
+          ],
+          "opens": "09:00",
+          "closes": "13:30"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday"
+          ],
+          "opens": "18:30",
+          "closes": "22:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Sunday"
+          ],
+          "opens": "09:00",
+          "closes": "13:30"
+        }
+      ],
+      "makesOffer": [
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Product",
+            "name": "Pastas Frescas"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Product",
+            "name": "Crudas y Cocidas"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Product",
+            "name": "Ravioles"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Product",
+            "name": "Sorrentinos"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Product",
+            "name": "Tallarines"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Product",
+            "name": "Ñoquis de Papa"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Product",
+            "name": "Variedad de Salsas"
+          }
+        }
+      ]
     },
     {
-      "id": "panaderia-san-cayetano",
-      "nombre": "Panadería San Cayetano",
-      "rubro": "Panadería",
-      "direccion": "Av. República 1100, Junín, Buenos Aires",
-      "horario": "Lun-Dom 06:00-21:00",
-      "telefono": "+54 236 444-0006",
-      "verificado": true
+      "@context": "https://schema.org",
+      "@type": "Bakery",
+      "name": "Panaderia San Cayetano",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Primera Junta 1150",
+        "addressLocality": "Junin",
+        "addressRegion": "Buenos Aires",
+        "addressCountry": "AR"
+      },
+      "telephone": "+5492364521133",
+      "sameAs": [
+        "https://www.instagram.com/panaderiasancayetanojunin/"
+      ],
+      "description": "Horarios: Ma-Sa 6:30-13:30 - 16:00-21:00; Do 06:30-13:30 Hs; Lunes Cerrado",
+      "paymentAccepted": "Efectivo, Mercado Pago, Tarjeta de débito, Transferencia bancaria, Otras billeteras virtuales",
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday"
+          ],
+          "opens": "06:30",
+          "closes": "13:30"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday"
+          ],
+          "opens": "16:00",
+          "closes": "21:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Sunday"
+          ],
+          "opens": "06:30",
+          "closes": "13:30"
+        }
+      ],
+      "makesOffer": [
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Product",
+            "name": "Horno a Leña"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Product",
+            "name": "Pan"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Product",
+            "name": "Facturas"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Product",
+            "name": "Bizcochos"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Product",
+            "name": "Masitas Seca"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Product",
+            "name": "Budines"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Product",
+            "name": "Churros"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Product",
+            "name": "Pan y Torta de Chicharrones"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Product",
+            "name": "Prepizzas"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Product",
+            "name": "Sanwiches de Miga"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Product",
+            "name": "Y el tradicional Pan Dulce todo el Año Frutos Secos y Choco"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Product",
+            "name": "Frutas Escurridas Confitadas"
+          }
+        }
+      ]
     },
     {
-      "id": "pastas-curly",
-      "nombre": "Pastas Curly",
-      "rubro": "Fábrica de pastas",
-      "direccion": "Padre Ghio 644, Junín, Buenos Aires",
-      "horario": "Lun-Sab 08:00-13:00 y 17:00-21:00, Dom 08:00-13:00",
-      "telefono": "+54 236 444-0007",
-      "verificado": true
+      "@context": "https://schema.org",
+      "@type": "AutoRepair",
+      "name": "Frenos Leo",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Republica Libanesa 690",
+        "addressLocality": "Junin",
+        "addressRegion": "Buenos Aires",
+        "addressCountry": "AR"
+      },
+      "telephone": "+5492364345898",
+      "sameAs": [
+        "https://www.instagram.com/frenos.leo/"
+      ],
+      "description": "Horarios: Lu-Vi 08:15 - 17:00 Hs, Horario Corrido",
+      "paymentAccepted": "Efectivo, Mercado Pago, Tarjeta de débito, Transferencia bancaria, Otras billeteras virtuales",
+      "makesOffer": [
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Product",
+            "name": "amortiguacion recambios"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Product",
+            "name": "embrague hidraulicos"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Product",
+            "name": "rodamientos"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Product",
+            "name": "frenos"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Product",
+            "name": "taller de frenos integral"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Product",
+            "name": "servo freno y bomba"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Product",
+            "name": "Rectificacion de discos"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Product",
+            "name": "Rectificacion de campanas"
+          }
+        }
+      ]
     },
     {
-      "id": "maxikiosco-san-jose",
-      "nombre": "Maxikiosco San Jose",
-      "rubro": "Kiosco y bebidas",
-      "direccion": "Av. San Martín 450, Junín, Buenos Aires",
-      "horario": "Lun-Dom 07:00-23:00",
-      "telefono": "+54 236 444-0008",
-      "verificado": true
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Maxikiosco San Jose",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Comandante Escribano 1259",
+        "addressLocality": "Junin",
+        "addressRegion": "Buenos Aires",
+        "addressCountry": "AR"
+      },
+      "telephone": "+5492364369682",
+      "sameAs": [
+        "https://www.instagram.com/kiosco_sanjose/"
+      ],
+      "description": "Horarios: Lu-Sa 08:30-23:30 Do 08:30-13:30 17:30-23:30 Hs",
+      "paymentAccepted": "Efectivo, Mercado Pago, Tarjeta de débito, Transferencia bancaria, Otras billeteras virtuales",
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday"
+          ],
+          "opens": "08:30",
+          "closes": "23:30"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Sunday"
+          ],
+          "opens": "08:30",
+          "closes": "13:30"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Sunday"
+          ],
+          "opens": "17:30",
+          "closes": "23:30"
+        }
+      ],
+      "makesOffer": [
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Product",
+            "name": "Kiosco"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Product",
+            "name": "Despensa"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Product",
+            "name": "Comidas Elaboradas"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Product",
+            "name": "Helados"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Product",
+            "name": "Regaleria"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Product",
+            "name": "Servicio de Pago Facil"
+          }
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Spa",
+      "name": "Masajes Corporales Natalia Baldoma",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Dr Luis Venini Nro 128",
+        "addressLocality": "Junín",
+        "addressRegion": "Buenos Aires",
+        "addressCountry": "AR"
+      },
+      "telephone": "+5492364568253",
+      "sameAs": [
+        "https://www.instagram.com/masajes_corporales_natalia/",
+        "https://www.facebook.com/masajescorporalesnatalia"
+      ],
+      "description": "Horarios: Lu-Sa 09:00-13:00",
+      "paymentAccepted": "Efectivo, Mercado Pago, Tarjeta de débito, Transferencia bancaria, Otras billeteras virtuales",
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday"
+          ],
+          "opens": "09:00",
+          "closes": "13:00"
+        }
+      ],
+      "makesOffer": [
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Product",
+            "name": "Masajes Corporales"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Product",
+            "name": "Masajes Descontracturantes"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Product",
+            "name": "Masajes Relajantes"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Product",
+            "name": "Tratamientos Corporales"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Product",
+            "name": "Estética"
+          }
+        }
+      ]
     }
   ],
   "fuentes_nativas": {
